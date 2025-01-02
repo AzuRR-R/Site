@@ -1,8 +1,7 @@
 [build]
-  base = "Site"  # Ovo će promeniti root direktorijum
   publish = "."
-  command = ""
+  command = "npm install && npm run build"
 
 [dev]
-  command = "live-server"  # Ako koristiš live-server za lokalni razvoj
+  command = "live-server"
   port = 8080
